@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="IDTHook.c" />
+    <ClCompile Include=".\DataAccessDetection.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DataAccessDetection.h">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAccessDetection_Game.c">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAccessDetection_Mode.c">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAccessDetection_Struct.c">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="Universal.c">
+      <Filter>Gen</Filter>
+    </ClCompile>
+    <ClCompile Include="SysCallBack.c">
+      <Filter>FUnc</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleJudge.c">
+      <Filter>FUnc</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPage.c">
+      <Filter>FUnc</Filter>
+    </ClCompile>
+    <ClCompile Include="GetWindowsVersion.c">
+      <Filter>Version</Filter>
+    </ClCompile>
+    <ClCompile Include="InitSys.c">
+      <Filter>InitSys</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.c">
+      <Filter>Process</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IDTHook.h" />
+    <ClInclude Include="DataAccessDetection_Game.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAccessDetection_Mode.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAccessDetection_Struct.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="Universal.h">
+      <Filter>Gen</Filter>
+    </ClInclude>
+    <ClInclude Include="SysCallBack.h">
+      <Filter>FUnc</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleJudge.h">
+      <Filter>FUnc</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPage.h">
+      <Filter>FUnc</Filter>
+    </ClInclude>
+    <ClInclude Include="GetWindowsVersion.h">
+      <Filter>Version</Filter>
+    </ClInclude>
+    <ClInclude Include="InitSys.h">
+      <Filter>InitSys</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Mod">
+      <UniqueIdentifier>{248a1798-e4a6-47af-82f5-bdd72edcbe52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{e26648b5-b3b1-4e97-8be3-87b395829c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gen">
+      <UniqueIdentifier>{86d6e632-9585-4d07-83d0-a3449633ac85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FUnc">
+      <UniqueIdentifier>{a0480afb-45ef-4cc4-ba66-ddd3607cb48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Version">
+      <UniqueIdentifier>{97a38f9c-d0f4-4752-ac68-e7c100246cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InitSys">
+      <UniqueIdentifier>{9fa22876-ef42-4db7-8903-bc03dd81fe74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{46587bc0-0054-4f8f-b4ef-4beea27e7f15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sources">
+      <Filter>Gen</Filter>
+    </None>
+  </ItemGroup>
+</Project>

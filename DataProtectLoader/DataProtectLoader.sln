@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataProtectLoader", "DataProtectLoader.vcxproj", "{FEDED2F0-6E82-4429-8406-583AED57ABBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDED2F0-6E82-4429-8406-583AED57ABBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FEDED2F0-6E82-4429-8406-583AED57ABBE}.Debug|Win32.Build.0 = Debug|Win32
+		{FEDED2F0-6E82-4429-8406-583AED57ABBE}.Release|Win32.ActiveCfg = Release|Win32
+		{FEDED2F0-6E82-4429-8406-583AED57ABBE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+TARGETNAME=DataAccessDetection
+#TARGETPATH=$(BASEDIR)\lib
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+INCLUDES=.\
+
+SOURCES=DataAccessDetection.c \
+					Universal.c \
+					IDTHook.c \
+					DataAccessDetection_Game.c \
+					DataAccessDetection_Mode.c \
+					DataAccessDetection_Struct.c \
+					ModuleJudge.c \
+					SysCallBack.c \
+					MemoryPage.c \
+					Process.c \
+					InitSys.c \
+					GetWindowsVersion.c 
+
+						
+
